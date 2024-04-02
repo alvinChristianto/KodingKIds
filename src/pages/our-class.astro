@@ -6,59 +6,53 @@ import PricingCard from "@components/our-class.astro";
 
 const ourClass = [
   {
-    name: "Personal",
-    price: "Free",
-    popular: false,
-    features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
-    ],
-    button: {
-      text: "Get Started",
-      link: "/",
-    },
-  },
-  {
-    name: "Startup",
-    price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
-    },
+    name: "PlayDevs",
+    price: "IDR 400.000",
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "Teaching Kits",
+      "7 offline meet",
+      "Will Learn basic logical thinking",
+      "Fun Final exam at the last meet",
+      "Certificate completion",
     ],
     button: {
-      text: "Get Started",
-      link: "#",
+      text: "Call Us",
+      link: "https://linktr.ee/kodingkidsjogja",
     },
   },
   {
-    name: "Enterprise",
+    name: "FutureDevs",
+    // price: {
+    //   monthly: "$19",
+    //   annual: "$16",
+    //   discount: "10%",
+    //   original: "$24",
+    // },
+    price: "IDR 600.000",
+    popular: true,
+    features: [
+      "Teaching kits",
+      "9 Online Meet",
+      "Will Learn intermediate logical thinking",
+      "Fun Final exam at the last meet",
+      "Certificate completion",
+    ],
+    button: {
+      text: "Call Us",
+      link: "https://linktr.ee/kodingkidsjogja",
+    },
+  },
+  {
+    name: "Custom Package",
     price: "Custom",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "contact us what your need, and we will give best advice and package"
     ],
     button: {
       text: "Contact us",
-      link: "/contact",
+      link: "https://linktr.ee/kodingkidsjogja",
     },
   },
 ];
@@ -67,7 +61,7 @@ const ourClass = [
 <Layout title="Pricing">
   <Container>
     <Sectionhead>
-      <Fragment slot="title">Pricing</Fragment>
+      <Fragment slot="title" >Our Teaching Package</Fragment>
       <Fragment slot="desc">
         Simple & Predictable pricing. No Surprises.
       </Fragment>
