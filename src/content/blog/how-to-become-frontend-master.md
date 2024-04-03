@@ -6,7 +6,7 @@ image: {
     src: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?&fit=crop&w=430&h=240",
     alt: "frontend master"
 }
-publishDate: "2022-11-07 15:39"
+publishDate: "2025-11-07 15:39" #ubah tanggal untuk mengaktifkan blog
 category: "Tutorials"
 author: "KodingKids Team"
 tags: [astro, tailwindcss, frontend]

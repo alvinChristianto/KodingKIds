@@ -1,10 +1,10 @@
 ---
 draft: false
-name: "Janette Lynch"
-title: "Senior Director"
+name: "Alvin Christianto"
+title: "Founder, Developer & Lecturer "
 avatar: {
-    src: "https://images.unsplash.com/photo-1580489944761-15a19d654956?&fit=crop&w=280",
-    alt: "Janette Lynch"
+    src: "https://images.unsplash.com/photo-15804289944761-15a19d654956?&fit=crop&w=280",
+    alt: "Alvin Christianto"
 }
-publishDate: "2022-11-07 15:39"
+publishDate: "2023-11-07 15:39"
 ---
